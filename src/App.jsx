@@ -346,7 +346,7 @@ function HomePage({ navigate }) {
             ))}
           </div>
           <div style={{ borderTop: "1px solid rgba(255,255,255,0.08)", paddingTop: 24, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-            <span style={{ color: "rgba(255,255,255,0.35)", fontSize: 13 }}>© 2025 Flights Travel Elite. All rights reserved. ATOL No. 12345.</span>
+            <span style={{ color: "rgba(255,255,255,0.35)", fontSize: 13 }}>© {new Date().getFullYear()} Flights Travel Elite. All rights reserved. ATOL No. 12345.</span>
             <div style={{ display: "flex", gap: 16 }}>
               {["f","t","in","ig"].map(s => (
                 <div key={s} style={{ width: 32, height: 32, borderRadius: 8, background: "rgba(255,255,255,0.08)", display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", color: "rgba(255,255,255,0.5)", fontSize: 12, fontWeight: 700 }}>{s}</div>
